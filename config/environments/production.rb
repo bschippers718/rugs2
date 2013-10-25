@@ -87,8 +87,8 @@ Pinteresting::Application.configure do
     :storage => :s3,
     :s3_credentials => {
       :bucket => ENV['AWS_BUCKET'],
-      :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
-      :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+      :access_key_id => AKIAI72PL4EHXEZWIFIQ
+      :secret_access_key => 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
     }
   }
 end
